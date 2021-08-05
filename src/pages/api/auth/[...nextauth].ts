@@ -13,7 +13,7 @@ export default NextAuth ({
             scope: 'read:user'
         })
     ],
-   
+
     callbacks: {
         async signIn(user, account, profile) {
             const { email } = user
